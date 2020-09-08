@@ -13,19 +13,19 @@
         \vspace*{1cm}
             
         \Huge
-        \textbf{Título del trabajo}
-            
+        \textbf{Taller Memoria}
         \vspace{0.5cm}
+        
         \LARGE
-        Subtítulo
-            
         \vspace{1.5cm}
-            
-        \textbf{Nombres y Apellidos del autor}
-            
+        \textbf{WANERGE ALMANZA VELASQUEZ}
         \vfill
-            
-        \vspace{0.8cm}
+
+        docente
+        
+        \vspace{0.5cm}
+        \textbf{Augusto Salazar Jimenez}
+        \vfill
             
         \Large
         Despartamento de Ingeniería Electrónica y Telecomunicaciones\\
@@ -40,11 +40,50 @@
 \newpage
 \section*{\centering INTRODUCCIÓN}\label{intro}
 \addcontentsline{toc}{section}{INTRODUCCIÓN}
+{\raggedleft
+Los tipos de memoria de un computador son esenciales para su buen funcionamiento y gestion, por eso es importante conocerlos y saber como interactuan unos con otros para asi conocer de antemano como trabaja un PC y parte de sus componentes.
+}
 
 \newpage
 \section{MEMORIA DE UN COMPUTADOR}
+{\raggedleft
+La memoria de un computador es un dispositivo electronico en el cual se guarda la informacion(datos) ya sea volatil(la informacion se pierde al cortar la energia) o no volatil(la informacion se mantiene guardada aunque no haya energia) y los dispositivos internos del computador interactuan con ella siempre que lo requieran.
+}
+\subsection{TIPOS DE MEMORIA}\label{tipos de memoria}
+{\raggedleft
+Existen diferentes tipos de memoria algunas son:
+}
+\subsubsection{Memoria RAM}
+{\raggedleft
+La RAM es un tipo de memoria volatil en la cual la informacion se almacena temporalmente para poder ser procesada por un microprocesador.
+}
+\subsubsection{Memoria ROM}
+{\raggedleft
+La ROM es un tipo memoria de solo lectura que vienen integradas en las tarjetas madres con instrucciones que se requieren para encender un ordenador o ya sea para hacer un chequeo de todos los componentes de este.\cite{tutorialspoint}
+}
+\subsubsection{Memoria Cache}
+{\raggedleft
+La memoria cache es un tipo de memoria incluida en los microprocesadores que almacena los datos o instrucciones que se utilizan con mayor frecuencia por lo que esta es mas rapida que la RAM debido a que la informacion es manejada a la velocidad de la CPU, pero su almacenamiento es muy limitado.\cite{tutorialspoint}
+}
+\subsubsection{Memoria Virtual}
+{\raggedleft
+la memoria virtual es una porción del disco duro dedicada a guardar informacion que no se este utilizando(ejecutando) con mucha frecuencia y esta este ocupando memoria en la RAM.\cite{tallermemoria}
+}
+\subsubsection{Disco Duro}
+{\raggedleft
+El disco duro es un tipo de memoria no volatil en la cual se guarda grandes cantidades de informacion que no se necesita ejecutar.
+}
 
+\subsection{¿COMO SE GESTIONA LA MEMORIA EN UN PC?}
+{\raggedleft
+El sistema operativo es el encargado de gestionar el uso de la memoran RAM lo mas eficiente siendo este el encargado de almacenar la informacion o instrucciones mas utilizadas en la memoria RAM para luego ser procesadas por una CPU y la informacion menos utilizada almacenarla en una memoria virtual.
+De otra manera podemos decir que el S.O administra que partes de la memoria estan siendo o no utilizadas para asi gestionar el intercambio entre la RAM y la memoria virtual para cuando la RAM resulte demasiado pequeña y no pueda contener todos los procesos.\cite{gestionmemoria}
+}
 
+\subsubsection{¿Qué hace que una memoria sea más rápida que otra?}
+{\raggedleft
+El hecho de tener grandes cantidades de informacion almacenada y que se pueda gestionar lo mas "rapido" hace que no sea posible guardarla en un solo lugar ya que entre mas informacion mas se tardara en procesarla y al final llegara un momento en que tarde minutos, horas o incluso el sistema llegue a colapsar, por eso existen diferentes tipos de memoria que buscan gestionar lo mas eficiente llevando de la memoria cache(la mas rapida pero con muy poca memoria) a la memoria RAM(menos rapida que la cache pero con mas memoria) y de esta a la memoria virtual(menos rapida que la RAM pero con mas memoria) informacion de mas relevancia a menor hasta guardarla en un disco duro que es en definitiva el que mas memoria tiene.
+}
 \newpage
 \bibliographystyle{IEEEtran}
 \bibliography{references}
